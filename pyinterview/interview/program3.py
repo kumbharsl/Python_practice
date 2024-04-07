@@ -1,9 +1,12 @@
 row = int(input("Enter the row : "))
-
-num = 9
 for i in range(row):
+    num = row-i
     for j in range(row-i):
-        print(num-1,end=" ")
-        #num -= 1
-    print()
-    num -=1
+        if num == 9:
+            print("6",end = " ")
+        elif num == 6:
+            print("9",end = " ")
+        else:
+            print(num, end=" ")
+        num = num - 1
+    print( )
