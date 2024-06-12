@@ -1,3 +1,3 @@
 import array
-arr=array.array('i',[10,20,30])
+arr=array.array('i',[30,40,50])
 print(arr)
